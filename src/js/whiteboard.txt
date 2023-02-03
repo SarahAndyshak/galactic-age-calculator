@@ -3,3 +3,13 @@ new Date() creates a new date object with the current date & time.
 function or prototype would need to collect current date and user's birthdate. 
 
 Date object that seems most useful would need to deal with days.
+
+-Need to know number of days until next birthday
+-Need to know number of days in year on planet (already have prototypes and info)
+
+Adapting from countdown timers, w3 schools:
+// Get today's date and time
+var now = new Date().getTime();
+
+// Find the distance between now and the count down date
+var distance = countDownDate - now;
