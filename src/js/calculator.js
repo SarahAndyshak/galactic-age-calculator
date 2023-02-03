@@ -5,6 +5,7 @@ export default class Age {
     this.venusAge = Math.round(this.earthAge / .62);
     this.marsAge = Math.round(this.earthAge * 1.88);
     this.jupiterAge = Math.round(this.earthAge * 11.86);
+    this.earthPast = Math.round(this.earthAge - pastAge);
   }
 
 }
