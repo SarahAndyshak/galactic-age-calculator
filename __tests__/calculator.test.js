@@ -31,7 +31,13 @@ describe ('Age', () => {
   test('should tell a user how many years have passed since a given birthday on Mercury', () => {
     const age = new Age (10, 4);
     expect(age.mercuryPast()).toEqual(25);
-  })
+  });
+
+  test('should tell a user how many years have passed since a given birthday on Venus', () => {
+    const age = new Age (56, 43);
+    expect(age.venusPast()).toEqual(21);
+  });
+
 });
 
 // Original tests for original prototypes

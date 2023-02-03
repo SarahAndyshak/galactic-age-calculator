@@ -12,6 +12,10 @@ export default class Age {
   mercuryPast() {
     return Math.round((this.earthAge - this.pastAge) / .24);
   }
+
+  venusPast() {
+    
+  }
 }
 
 // Old format of original constructor and prototypes
