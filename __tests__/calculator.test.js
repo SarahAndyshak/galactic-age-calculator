@@ -68,6 +68,11 @@ describe ('Age', () => {
     expect(age.marsFuture()).toEqual("2.66");
   });
 
+  test('should tell a user how many more years it will be until their birthday on Jupiter', () => {
+    const age = new Age (56, 43, 61);
+    expect(age.jupiterFuture()).toEqual("0.42");
+  });
+
 });
 
 // Original tests for original prototypes

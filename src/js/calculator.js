@@ -41,6 +41,10 @@ export default class Age {
   marsFuture() {
     return((this.futureAge - this.earthAge) / 1.88).toFixed(2);
   }
+
+  jupiterFuture() {
+
+  }
 }
 
 // Old format of original constructor and prototypes
