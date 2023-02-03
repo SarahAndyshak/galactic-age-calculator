@@ -19,12 +19,12 @@ The user is able to determine their age on Mercury, Venus, Mars, and Jupiter, re
 
 * Clone the repository to your computer, install the environment, and build the environment to acccess the JavaScript.
 * For Mac users, check that the setting in package.json looks like this “lint”: “eslint ‘src/**/*.js’”
-* At this time, no user interface is set up. If user interface is added, open index.html in your browser and follow the directions given on the webpage.
+* Open index.html in your browser and follow the directions given on the webpage.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No current bugs with JS business logic code.
+* UI not working properly. 
 
 ## License
 _Enjoy the site! If you have questions or suggestions for fixing the code, please contact me!_
