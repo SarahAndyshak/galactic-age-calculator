@@ -1,0 +1,5 @@
+new Date() creates a new date object with the current date & time. 
+
+function or prototype would need to collect current date and user's birthdate. 
+
+Date object that seems most useful would need to deal with days.
