@@ -2,6 +2,10 @@ export default class Age {
   constructor(earthAge) {
     this.earthAge = earthAge;
   }
+
+  mercuryAge() {
+    
+  }
 }
 
 // export default class Rectangle {

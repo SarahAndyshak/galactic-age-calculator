@@ -6,6 +6,11 @@ describe ('Age', () => {
     const age = new Age(5);
     expect(age.earthAge).toEqual(5);
   });
+
+  test('should return a users age in Mercury years', () => {
+    const age = new Age(5);
+    expect(age.mercuryAge()).toEqual(65);
+  });
 });
 
 
