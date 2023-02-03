@@ -7,8 +7,13 @@ export default class Age {
     this.jupiterAge = Math.round(this.earthAge * 11.86);
   }
 
+  pastBirthday() {
+    
+  }
+
 }
 
+// Old format of original constructor and prototypes
 // export default class Age {
 //   constructor(earthAge) {
 //     this.earthAge = earthAge;
