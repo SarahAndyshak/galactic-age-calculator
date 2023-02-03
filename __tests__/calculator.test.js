@@ -73,6 +73,11 @@ describe ('Age', () => {
     expect(age.jupiterFuture()).toEqual("0.42");
   });
 
+  test('should return planetary ages for a user to see', () => {
+    const age = new Age (56, 43, 61);
+    expect(age.displayPlanetaryAges()).toEqual("220.83, 85.48, 28.19, 4.47");
+  });
+
 });
 
 // Original tests for original prototypes
