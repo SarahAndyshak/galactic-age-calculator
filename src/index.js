@@ -5,7 +5,10 @@ import Age from '../src/js/calculator.js';
 
 function handleCalculatorForm(event) {
   event.preventDefault();
-  document.querySelector('#planetary')
+  document.querySelector('#age-results').innerText = null;
+  const earthAge = parseInt(document.querySelector('#earthAge').value);
+  const age = new Age(earthAge, pastAge, futureAge);
+  
 }
 
 // import Triangle from './js/triangle.js';
