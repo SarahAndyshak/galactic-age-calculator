@@ -37,6 +37,10 @@ export default class Age {
   venusFuture(){
     return((this.futureAge - this.earthAge) / .62).toFixed(2);
   }
+
+  marsFuture() {
+    
+  }
 }
 
 // Old format of original constructor and prototypes
