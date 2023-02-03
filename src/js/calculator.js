@@ -4,11 +4,11 @@ export default class Age {
   }
 
   mercuryAge() {
-    return (this.earthAge / .24).toFixed();
+    return Math.round(this.earthAge / .24);
   }
 
   venusAge() {
-    return (this.earthAge / .62).toFixed();
+    return Math.round(this.earthAge / .62);
   }
 }
 
