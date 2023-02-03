@@ -43,7 +43,7 @@ export default class Age {
   }
 
   jupiterFuture() {
-
+    return ((this.futureAge - this.earthAge) / 11.86).toFixed(2);
   }
 }
 
