@@ -58,6 +58,11 @@ describe ('Age', () => {
     expect(age.mercuryFuture()).toEqual("20.83");
   });
 
+  test('should tell a user how many more years it will be until their birthday on Venus', () => {
+    const age = new Age (56, 43, 61);
+    expect(age.venusFuture()).toEqual("8.06");
+  });
+
 });
 
 // Original tests for original prototypes
