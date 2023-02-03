@@ -18,7 +18,7 @@ export default class Age {
   }
 
   marsPast() {
-
+    return ((this.earthAge - this.pastAge) / 1.88).toFixed(2);
   }
 }
 
