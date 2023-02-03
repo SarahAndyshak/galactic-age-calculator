@@ -15,5 +15,5 @@
 //     } else {
 //       return "isosceles triangle";
 //     }
-//   }    
+//   }
 // }
