@@ -33,15 +33,15 @@ describe ('Age', () => {
     expect(age.mercuryPast()).toEqual("54.17");
   });
 
-  // test('should tell a user how many years have passed since a given birthday on Venus', () => {
-  //   const age = new Age (56, 43);
-  //   expect(age.venusPast()).toEqual("20.97");
-  // });
+  test('should tell a user how many years have passed since a given birthday on Venus', () => {
+    const age = new Age (56, 43);
+    expect(age.venusPast()).toEqual("20.97");
+  });
 
-  // test('should tell a user how many years have passed since a given birthday on Mars as a string', () => {
-  //   const age = new Age (56, 43);
-  //   expect(age.venusPast()).toEqual("");
-  // });  
+  test('should tell a user how many years have passed since a given birthday on Mars as a string', () => {
+    const age = new Age (56, 43);
+    expect(age.marsPast()).toEqual("6.91");
+  });
 
 });
 

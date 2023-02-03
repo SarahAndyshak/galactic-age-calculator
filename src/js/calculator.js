@@ -13,13 +13,13 @@ export default class Age {
     return ((this.earthAge - this.pastAge) / .24).toFixed(2);
   }
 
-  // venusPast() {
-  //   return ((this.earthAge - this.pastAge) / .62).toFixed(2);
-  // }
+  venusPast() {
+    return ((this.earthAge - this.pastAge) / .62).toFixed(2);
+  }
 
-  // marsPast() {
+  marsPast() {
 
-  // }
+  }
 }
 
 // Old format of original constructor and prototypes
