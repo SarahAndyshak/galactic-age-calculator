@@ -29,6 +29,10 @@ export default class Age {
   earthFuture() {
     return((this.futureAge - this.earthAge)).toFixed(2);
   }
+
+  mercuryFuture(){
+    
+  }
 }
 
 // Old format of original constructor and prototypes
