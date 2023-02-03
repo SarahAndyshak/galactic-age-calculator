@@ -12,7 +12,7 @@ export default class Age {
   }
 
   marsAge(){
-    
+    return Math.round(this.earthAge * 1.88);
   }
 }
 
