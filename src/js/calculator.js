@@ -1,6 +1,7 @@
 export default class Age {
   constructor(earthAge, pastAge) {
     this.earthAge = earthAge;
+    this.pastAge = pastAge
     this.mercuryAge = Math.round(this.earthAge / .24);
     this.venusAge = Math.round(this.earthAge / .62);
     this.marsAge = Math.round(this.earthAge * 1.88);
@@ -9,7 +10,7 @@ export default class Age {
   }
 
   mercuryPast() {
-
+    return Math.round((this.earthAge - this.pastAge) / .24);
   }
 }
 
