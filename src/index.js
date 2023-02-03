@@ -8,8 +8,13 @@ function handleCalculatorForm(event) {
   document.querySelector('#age-results').innerText = null;
   const earthAge = parseInt(document.querySelector('#earthAge').value);
   const age = new Age(earthAge, pastAge, futureAge);
-  
+  const response = age.displayPlanetaryAges();
+  const pTag = document.createElement("p");
+  pTag.append(`Your ages are as follows: ${response}.`);
+  document.querySelector('#response').append(pTag);
 }
+
+
 
 // import Triangle from './js/triangle.js';
 // import Rectangle from './js/rectangle.js';
