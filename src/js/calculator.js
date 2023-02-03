@@ -9,9 +9,9 @@ export default class Age {
     this.earthPast = (this.earthAge - pastAge).toFixed(2);
   }
 
-  // mercuryPast() {
-  //   return Math.round((this.earthAge - this.pastAge) / .24);
-  // }
+  mercuryPast() {
+    return ((this.earthAge - this.pastAge) / .24).toFixed(2);
+  }
 
   // venusPast() {
   //   return ((this.earthAge - this.pastAge) / .62).toFixed(2);
