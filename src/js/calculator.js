@@ -8,7 +8,7 @@ export default class Age {
   }
 
   venusAge() {
-
+    return (this.earthAge / .62).toFixed();
   }
 }
 
