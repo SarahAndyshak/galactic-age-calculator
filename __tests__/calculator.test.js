@@ -28,6 +28,10 @@ describe ('Age', () => {
     expect(age.earthPast).toEqual(6);
   });
 
+  test('should tell a user how many years have passed since a given birthday on Mercury', () => {
+    const age = new Age (10, 4);
+    expect(age.mercuryPast()).toEqual(25);
+  })
 });
 
 // Original tests for original prototypes

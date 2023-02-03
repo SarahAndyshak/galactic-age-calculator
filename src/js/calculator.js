@@ -8,6 +8,9 @@ export default class Age {
     this.earthPast = Math.round(this.earthAge - pastAge);
   }
 
+  mercuryPast() {
+
+  }
 }
 
 // Old format of original constructor and prototypes
