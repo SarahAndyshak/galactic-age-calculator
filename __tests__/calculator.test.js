@@ -50,7 +50,7 @@ describe ('Age', () => {
 
   test('should tell a user how many more years it will be until their birthday on Earth', () => {
     const age = new Age (56, 43, 61);
-    expect(age.earthFuture()).toEqual("5");
+    expect(age.earthFuture()).toEqual("5.00");
   });
 
 });

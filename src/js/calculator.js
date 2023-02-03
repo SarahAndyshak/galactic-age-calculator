@@ -27,7 +27,7 @@ export default class Age {
   }
 
   earthFuture() {
-    
+    return((this.futureAge - this.earthAge)).toFixed(2);
   }
 }
 
