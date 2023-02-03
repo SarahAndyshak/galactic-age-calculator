@@ -1,5 +1,5 @@
 export default class BirthdayCount {
-
+  
 }
 
 // export default class Age {
