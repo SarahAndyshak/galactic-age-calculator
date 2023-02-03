@@ -9,7 +9,7 @@ describe ('Age', () => {
 
   test('should return a users age in Mercury years', () => {
     const age = new Age(5);
-    expect(age.mercuryAge()).toEqual(65);
+    expect(age.mercuryAge()).toEqual(1.2);
   });
 });
 

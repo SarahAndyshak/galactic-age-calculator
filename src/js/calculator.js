@@ -4,7 +4,7 @@ export default class Age {
   }
 
   mercuryAge() {
-    
+    return this.earthAge * .24;
   }
 }
 
