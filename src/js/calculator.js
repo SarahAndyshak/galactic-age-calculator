@@ -22,7 +22,7 @@ export default class Age {
   }
 
   jupiterPast() {
-    
+    return((this.earthAge - this.pastAge) / 11.86).toFixed(2);
   }
 }
 
