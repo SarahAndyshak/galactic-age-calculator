@@ -47,7 +47,7 @@ export default class Age {
   }
 
   displayPlanetaryAges() {
-    return (this.mercuryAge + ", " + this.venusAge + ", " + this.marsAge + ", " + this.jupiterAge);
+    return ("Mercury: " + this.mercuryAge + ", " + "Venus: " + this.venusAge + ", " + "Mars: " + this.marsAge + ", " + "Jupiter: " + this.jupiterAge);
   }
 }
 

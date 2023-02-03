@@ -75,7 +75,7 @@ describe ('Age', () => {
 
   test('should return planetary ages for a user to see', () => {
     const age = new Age (56, 43, 61);
-    expect(age.displayPlanetaryAges()).toEqual("233.33, 90.32, 29.79, 4.72");
+    expect(age.displayPlanetaryAges()).toEqual("Mercury: 233.33, Venus: 90.32, Mars: 29.79, Jupiter: 4.72");
   });
 
 });
