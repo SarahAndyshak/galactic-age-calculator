@@ -31,7 +31,7 @@ export default class Age {
   }
 
   mercuryFuture(){
-    
+    return((this.futureAge - this.earthAge) / .24).toFixed(2);
   }
 }
 
