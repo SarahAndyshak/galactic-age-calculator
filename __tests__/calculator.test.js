@@ -35,7 +35,7 @@ describe ('Age', () => {
 
   test('should tell a user how many years have passed since a given birthday on Venus', () => {
     const age = new Age (56, 43);
-    expect(age.venusPast()).toEqual(21);
+    expect(age.venusPast()).toEqual("20.97");
   });
 
 });

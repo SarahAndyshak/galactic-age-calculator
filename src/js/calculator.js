@@ -14,7 +14,7 @@ export default class Age {
   }
 
   venusPast() {
-    return Math.round((this.earthAge - this.pastAge) / .62);
+    return ((this.earthAge - this.pastAge) / .62).toFixed(2);
   }
 }
 
