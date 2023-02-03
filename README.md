@@ -23,8 +23,7 @@ The user is able to determine their age on Mercury, Venus, Mars, and Jupiter, re
 
 ## Known Bugs
 
-* No current bugs with JS business logic code.
-* UI not working properly. 
+* No current bugs.
 
 ## License
 _Enjoy the site! If you have questions or suggestions for fixing the code, please contact me!_
