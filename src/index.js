@@ -1,6 +1,13 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+import Age from '../src/js/calculator.js';
+
+function handleCalculatorForm(event) {
+  event.preventDefault();
+  document.querySelector('#planetary')
+}
+
 // import Triangle from './js/triangle.js';
 // import Rectangle from './js/rectangle.js';
 
