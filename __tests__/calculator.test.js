@@ -43,6 +43,11 @@ describe ('Age', () => {
     expect(age.marsPast()).toEqual("6.91");
   });
 
+  test('should tell a user how many years have passed since a given birthday on Jupiter as a string', () => {
+    const age = new Age (56, 43);
+    expect(age.jupiterPast()).toEqual("1.09");
+  });
+
 });
 
 // Original tests for original prototypes
