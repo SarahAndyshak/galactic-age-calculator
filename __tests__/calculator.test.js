@@ -25,7 +25,7 @@ describe ('Age', () => {
 
   test('should tell a user how many years have passed since a given birthday', () => {
     const age = new Age (10);
-    expect(age.pastBirthday()).toEqual(5);
+    expect(age.pastAge).toEqual(5);
   });
 
 });
