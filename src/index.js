@@ -11,7 +11,7 @@ function handleCalculatorForm(event) {
   const response = age.displayPlanetaryAges();
   const pTag = document.createElement("p");
   pTag.append(`Your ages are as follows: ${response}.`);
-  document.querySelector('#response').append(pTag);
+  document.querySelector('#age-results').append(pTag);
 }
 
 window.addEventListener("load", function() {
