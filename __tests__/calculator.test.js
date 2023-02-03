@@ -38,6 +38,11 @@ describe ('Age', () => {
     expect(age.venusPast()).toEqual("20.97");
   });
 
+  test('should tell a user how many years have passed since a given birthday on Mars as a string', () => {
+    const age = new Age (56, 43);
+    expect(age.venusPast()).toEqual("");
+  });  
+
 });
 
 // Original tests for original prototypes

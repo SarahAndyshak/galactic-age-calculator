@@ -16,6 +16,10 @@ export default class Age {
   venusPast() {
     return ((this.earthAge - this.pastAge) / .62).toFixed(2);
   }
+
+  marsPast() {
+    
+  }
 }
 
 // Old format of original constructor and prototypes
