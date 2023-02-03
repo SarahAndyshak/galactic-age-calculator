@@ -14,7 +14,7 @@ describe ('Age', () => {
 
   test('should return a users age in Venus years', () => {
     const age = new Age(5);
-    expect(age.venusAge()).toEqual(8)
+    expect(age.venusAge()).toEqual(8);
   });
 });
 

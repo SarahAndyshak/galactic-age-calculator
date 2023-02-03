@@ -4,7 +4,7 @@ export default class Age {
   }
 
   mercuryAge() {
-    return this.earthAge / .24;
+    return (this.earthAge / .24).toFixed();
   }
 
   venusAge() {
