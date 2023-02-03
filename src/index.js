@@ -7,7 +7,7 @@ function handleCalculatorForm(event) {
   event.preventDefault();
   document.querySelector('#age-results').innerText = null;
   const earthAge = parseInt(document.querySelector('#earthAge').value);
-  const age = new Age(earthAge, pastAge, futureAge);
+  const age = new Age(earthAge); //took out pastAge, futureAge
   const response = age.displayPlanetaryAges();
   const pTag = document.createElement("p");
   pTag.append(`Your ages are as follows: ${response}.`);
