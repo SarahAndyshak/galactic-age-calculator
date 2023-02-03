@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import Age from '../src/js/calculator.js';
 
 describe ('Age', () => {

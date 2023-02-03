@@ -8,7 +8,7 @@ export default class Age {
   }
 
   pastBirthday() {
-    
+    let currentAge = this.earthAge;
   }
 
 }
