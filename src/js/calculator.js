@@ -10,6 +10,10 @@ export default class Age {
   venusAge() {
     return Math.round(this.earthAge / .62);
   }
+
+  marsAge(){
+    
+  }
 }
 
 // export default class Rectangle {

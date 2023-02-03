@@ -16,6 +16,12 @@ describe ('Age', () => {
     const age = new Age(5);
     expect(age.venusAge()).toEqual(8);
   });
+
+  test('should return a users age in Mars years', () => {
+    const age = new Age(5);
+    expect(age.marsAge()).toEqual(9);
+  });
+
 });
 
 
