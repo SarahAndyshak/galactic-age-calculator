@@ -8,9 +8,9 @@
 
 * JavaScript
 * VS Code
-* ES Lint
+* ESLint
 * Babel
-* Webpack
+* webpack
 
 ## Description
 The user is able to determine their age on Mercury, Venus, Mars, and Jupiter, relative to their age on earth. The user is also able to determine how many years on each planet have passed since a birthday, and how many years on each planet will pass before their next birthday. 

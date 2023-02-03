@@ -1,3 +1,7 @@
+export default class Age {
+
+}
+
 // export default class Rectangle {
 //   constructor(side1, side2) {
 //     this.side1 = side1;
