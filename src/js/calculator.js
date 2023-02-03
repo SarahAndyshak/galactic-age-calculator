@@ -1,5 +1,7 @@
 export default class Age {
-
+  constructor(earthAge) {
+    this.earthAge = earthAge;
+  }
 }
 
 // export default class Rectangle {

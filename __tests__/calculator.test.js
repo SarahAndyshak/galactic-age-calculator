@@ -3,8 +3,8 @@ import Age from '../src/js/calculator.js';
 describe ('Age', () => {
 
   test('should create an age object for a users age in Earth years', () => {
-    const age = new Age(5);
-    expect(Age).toEqual(5);
+    const earthAge = new Age(5);
+    expect(earthAge).toEqual(5);
   });
 });
 
