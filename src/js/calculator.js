@@ -39,7 +39,7 @@ export default class Age {
   }
 
   marsFuture() {
-    
+    return((this.futureAge - this.earthAge) / 1.88).toFixed(2);
   }
 }
 

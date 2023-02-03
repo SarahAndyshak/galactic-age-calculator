@@ -65,7 +65,7 @@ describe ('Age', () => {
 
   test('should tell a user how many more years it will be until their birthday on Mars', () => {
     const age = new Age (56, 43, 61);
-    expect(age.marsFuture()).toEqual("2.65");
+    expect(age.marsFuture()).toEqual("2.66");
   });
 
 });
