@@ -14,7 +14,9 @@ function handleCalculatorForm(event) {
   document.querySelector('#response').append(pTag);
 }
 
-
+window.addEventListener("load", function() {
+  this.document.querySelector("#planetary-ages-form").addEventListener("submit", handleCalculatorForm);
+});
 
 // import Triangle from './js/triangle.js';
 // import Rectangle from './js/rectangle.js';
