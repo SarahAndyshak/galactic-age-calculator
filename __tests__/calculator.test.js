@@ -13,6 +13,15 @@ describe ('Age', () => {
     expect(age.mercuryAge).toEqual(21);
   });
 
+  test('should create an age object for a users age in Earth, Mercury, Venus, Mars, and Jupiter years', () => {
+    const age = new Age(5);
+    expect(age.earthAge).toEqual(5);
+    expect(age.mercuryAge).toEqual(21);
+    expect(age.venusAge).toEqual(8);
+    expect(age.marsAge).toEqual(9);
+    expect(age.jupiterAge).toEqual(59);
+  });
+
   // test('should return a users age in Mercury years', () => {
   //   const age = new Age(5);
   //   expect(age.mercuryAge()).toEqual(21);
@@ -32,9 +41,6 @@ describe ('Age', () => {
   //   const age = new Age(5);
   //   expect(age.jupiterAge()).toEqual(59);
   // });
-
-
-
 });
 
 
