@@ -75,7 +75,7 @@ describe ('Age', () => {
 
   test('should return planetary ages for a user to see', () => {
     const age = new Age (56, 43, 61);
-    expect(age.displayPlanetaryAges()).toEqual("220.83, 85.48, 28.19, 4.47");
+    expect(age.displayPlanetaryAges()).toEqual("233.33, 90.32, 29.79, 4.72");
   });
 
 });
