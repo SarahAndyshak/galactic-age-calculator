@@ -1,25 +1,25 @@
 export default class Age {
   constructor(earthAge, pastAge) {
     this.earthAge = earthAge;
-    this.pastAge = pastAge
-    this.mercuryAge = Math.round(this.earthAge / .24);
-    this.venusAge = Math.round(this.earthAge / .62);
-    this.marsAge = Math.round(this.earthAge / 1.88);
-    this.jupiterAge = Math.round(this.earthAge / 11.86);
-    this.earthPast = Math.round(this.earthAge - pastAge);
+    this.pastAge = pastAge;
+    this.mercuryAge = (this.earthAge / .24).toFixed(2);
+    this.venusAge = (this.earthAge / .62).toFixed(2);
+    this.marsAge = (this.earthAge / 1.88).toFixed(2);
+    this.jupiterAge = (this.earthAge / 11.86).toFixed(2);
+    this.earthPast = (this.earthAge - pastAge).toFixed(2);
   }
 
-  mercuryPast() {
-    return Math.round((this.earthAge - this.pastAge) / .24);
-  }
+  // mercuryPast() {
+  //   return Math.round((this.earthAge - this.pastAge) / .24);
+  // }
 
-  venusPast() {
-    return ((this.earthAge - this.pastAge) / .62).toFixed(2);
-  }
+  // venusPast() {
+  //   return ((this.earthAge - this.pastAge) / .62).toFixed(2);
+  // }
 
-  marsPast() {
+  // marsPast() {
 
-  }
+  // }
 }
 
 // Old format of original constructor and prototypes

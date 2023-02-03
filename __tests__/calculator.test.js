@@ -11,37 +11,37 @@ describe ('Age', () => {
   test('should create an age object for a users age in Earth years and Mercury years', () => {
     const age = new Age(15);
     expect(age.earthAge).toEqual(15);
-    expect(age.mercuryAge).toEqual(21);
+    expect(age.mercuryAge).toEqual("62.50");
   });
 
   test('should create an age object for a users age in Earth, Mercury, Venus, Mars, and Jupiter years', () => {
     const age = new Age(15);
     expect(age.earthAge).toEqual(15);
-    expect(age.mercuryAge).toEqual(21);
-    expect(age.venusAge).toEqual(8);
-    expect(age.marsAge).toEqual(2);
-    expect(age.jupiterAge).toEqual();
+    expect(age.mercuryAge).toEqual("62.50");
+    expect(age.venusAge).toEqual("24.19");
+    expect(age.marsAge).toEqual("7.98");
+    expect(age.jupiterAge).toEqual("1.26");
   });
 
   test('should tell a user how many years have passed since a given birthday', () => {
     const age = new Age (10, 4);
-    expect(age.earthPast).toEqual(6);
+    expect(age.earthPast).toEqual("6.00");
   });
 
-  test('should tell a user how many years have passed since a given birthday on Mercury', () => {
-    const age = new Age (10, 4);
-    expect(age.mercuryPast()).toEqual(25);
-  });
+  // test('should tell a user how many years have passed since a given birthday on Mercury', () => {
+  //   const age = new Age (10, 4);
+  //   expect(age.mercuryPast()).toEqual(25);
+  // });
 
-  test('should tell a user how many years have passed since a given birthday on Venus', () => {
-    const age = new Age (56, 43);
-    expect(age.venusPast()).toEqual("20.97");
-  });
+  // test('should tell a user how many years have passed since a given birthday on Venus', () => {
+  //   const age = new Age (56, 43);
+  //   expect(age.venusPast()).toEqual("20.97");
+  // });
 
-  test('should tell a user how many years have passed since a given birthday on Mars as a string', () => {
-    const age = new Age (56, 43);
-    expect(age.venusPast()).toEqual("");
-  });  
+  // test('should tell a user how many years have passed since a given birthday on Mars as a string', () => {
+  //   const age = new Age (56, 43);
+  //   expect(age.venusPast()).toEqual("");
+  // });  
 
 });
 
