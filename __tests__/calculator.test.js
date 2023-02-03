@@ -22,6 +22,11 @@ describe ('Age', () => {
     expect(age.marsAge()).toEqual(9);
   });
 
+  test('should return a users age in Jupiter years', () => {
+    const age = new Age(5);
+    expect(age.jupiterAge()).toEqual(59);
+  });
+
 });
 
 
