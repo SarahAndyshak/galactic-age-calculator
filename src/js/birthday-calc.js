@@ -1,5 +1,7 @@
 export default class BirthdayCount {
-  
+  constructor(currentDay){
+    this.currentDay = new Date();
+  }
 }
 
 // export default class Age {
