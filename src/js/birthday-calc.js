@@ -3,7 +3,7 @@ export default class BirthdayCount {
     this.currentDay = currentDay;
   }
 
-setCurrentDay() {
+  setCurrentDay() {
     let currentDay = new Date();
     return currentDay.toDateString();
   }
