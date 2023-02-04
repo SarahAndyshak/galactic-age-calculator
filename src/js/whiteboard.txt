@@ -13,3 +13,5 @@ var now = new Date().getTime();
 
 // Find the distance between now and the count down date
 var distance = countDownDate - now;
+
+new issue: only want date with year, not time. Not sure how to get a good pass with time involved -- use Date.prototype.toDateString()

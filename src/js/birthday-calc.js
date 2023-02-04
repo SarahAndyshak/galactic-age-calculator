@@ -1,6 +1,6 @@
 export default class BirthdayCount {
   constructor(currentDay){
-    this.currentDay = new Date();
+    this.currentDay = currentDay;
   }
 }
 
