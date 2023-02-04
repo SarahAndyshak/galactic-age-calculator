@@ -8,7 +8,9 @@ export default class BirthdayCount {
     return currentDay.toLocaleDateString();
   }
 
-  setBirthday() {
-    
-  }
+  //thinking about next step, ran out of time on Friday.
+  // setBirthday() {
+  //   let newBirthday = new Date();
+  //   return newBirthday;
+  // }
 }
