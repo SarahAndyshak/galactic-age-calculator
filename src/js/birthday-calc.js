@@ -5,6 +5,6 @@ export default class BirthdayCount {
 
 setCurrentDay() {
     let currentDay = new Date();
-    return currentDay.toString();
+    return currentDay.toDateString();
   }
 }
